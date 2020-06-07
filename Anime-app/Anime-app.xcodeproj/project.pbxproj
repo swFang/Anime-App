@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A74D2DC7248D9A8B00855079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D2DC6248D9A8B00855079 /* AppDelegate.swift */; };
-		A74D2DC9248D9A8B00855079 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D2DC8248D9A8B00855079 /* SceneDelegate.swift */; };
-		A74D2DCB248D9A8B00855079 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D2DCA248D9A8B00855079 /* ContentView.swift */; };
-		A74D2DCD248D9A8D00855079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74D2DCC248D9A8D00855079 /* Assets.xcassets */; };
-		A74D2DD0248D9A8D00855079 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74D2DCF248D9A8D00855079 /* Preview Assets.xcassets */; };
-		A74D2DD3248D9A8D00855079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74D2DD1248D9A8D00855079 /* LaunchScreen.storyboard */; };
+		A74D2DF4248DA67B00855079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D2DF3248DA67B00855079 /* AppDelegate.swift */; };
+		A74D2DF6248DA67B00855079 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D2DF5248DA67B00855079 /* SceneDelegate.swift */; };
+		A74D2DF8248DA67B00855079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74D2DF7248DA67B00855079 /* ViewController.swift */; };
+		A74D2DFB248DA67B00855079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74D2DF9248DA67B00855079 /* Main.storyboard */; };
+		A74D2DFD248DA67C00855079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74D2DFC248DA67C00855079 /* Assets.xcassets */; };
+		A74D2E00248DA67C00855079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74D2DFE248DA67C00855079 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A74D2DC3248D9A8B00855079 /* Anime-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anime-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A74D2DC6248D9A8B00855079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A74D2DC8248D9A8B00855079 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A74D2DCA248D9A8B00855079 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A74D2DCC248D9A8D00855079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A74D2DCF248D9A8D00855079 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A74D2DD2248D9A8D00855079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A74D2DD4248D9A8D00855079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74D2DF0248DA67B00855079 /* Anime-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anime-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74D2DF3248DA67B00855079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A74D2DF5248DA67B00855079 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A74D2DF7248DA67B00855079 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A74D2DFA248DA67B00855079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A74D2DFC248DA67C00855079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A74D2DFF248DA67C00855079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A74D2E01248DA67C00855079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A74D2DC0248D9A8B00855079 /* Frameworks */ = {
+		A74D2DED248DA67B00855079 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,54 +37,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A74D2DBA248D9A8B00855079 = {
+		A74D2DE7248DA67B00855079 = {
 			isa = PBXGroup;
 			children = (
-				A74D2DC5248D9A8B00855079 /* Anime-app */,
-				A74D2DC4248D9A8B00855079 /* Products */,
+				A74D2DF2248DA67B00855079 /* Anime-app */,
+				A74D2DF1248DA67B00855079 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A74D2DC4248D9A8B00855079 /* Products */ = {
+		A74D2DF1248DA67B00855079 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A74D2DC3248D9A8B00855079 /* Anime-app.app */,
+				A74D2DF0248DA67B00855079 /* Anime-app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A74D2DC5248D9A8B00855079 /* Anime-app */ = {
+		A74D2DF2248DA67B00855079 /* Anime-app */ = {
 			isa = PBXGroup;
 			children = (
-				A74D2DC6248D9A8B00855079 /* AppDelegate.swift */,
-				A74D2DC8248D9A8B00855079 /* SceneDelegate.swift */,
-				A74D2DCA248D9A8B00855079 /* ContentView.swift */,
-				A74D2DCC248D9A8D00855079 /* Assets.xcassets */,
-				A74D2DD1248D9A8D00855079 /* LaunchScreen.storyboard */,
-				A74D2DD4248D9A8D00855079 /* Info.plist */,
-				A74D2DCE248D9A8D00855079 /* Preview Content */,
+				A74D2DF3248DA67B00855079 /* AppDelegate.swift */,
+				A74D2DF5248DA67B00855079 /* SceneDelegate.swift */,
+				A74D2DF7248DA67B00855079 /* ViewController.swift */,
+				A74D2DF9248DA67B00855079 /* Main.storyboard */,
+				A74D2DFC248DA67C00855079 /* Assets.xcassets */,
+				A74D2DFE248DA67C00855079 /* LaunchScreen.storyboard */,
+				A74D2E01248DA67C00855079 /* Info.plist */,
 			);
 			path = "Anime-app";
-			sourceTree = "<group>";
-		};
-		A74D2DCE248D9A8D00855079 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A74D2DCF248D9A8D00855079 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A74D2DC2248D9A8B00855079 /* Anime-app */ = {
+		A74D2DEF248DA67B00855079 /* Anime-app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A74D2DD7248D9A8D00855079 /* Build configuration list for PBXNativeTarget "Anime-app" */;
+			buildConfigurationList = A74D2E04248DA67C00855079 /* Build configuration list for PBXNativeTarget "Anime-app" */;
 			buildPhases = (
-				A74D2DBF248D9A8B00855079 /* Sources */,
-				A74D2DC0248D9A8B00855079 /* Frameworks */,
-				A74D2DC1248D9A8B00855079 /* Resources */,
+				A74D2DEC248DA67B00855079 /* Sources */,
+				A74D2DED248DA67B00855079 /* Frameworks */,
+				A74D2DEE248DA67B00855079 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -92,25 +84,25 @@
 			);
 			name = "Anime-app";
 			productName = "Anime-app";
-			productReference = A74D2DC3248D9A8B00855079 /* Anime-app.app */;
+			productReference = A74D2DF0248DA67B00855079 /* Anime-app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A74D2DBB248D9A8B00855079 /* Project object */ = {
+		A74D2DE8248DA67B00855079 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Shi-Wei Fang";
 				TargetAttributes = {
-					A74D2DC2248D9A8B00855079 = {
+					A74D2DEF248DA67B00855079 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = A74D2DBE248D9A8B00855079 /* Build configuration list for PBXProject "Anime-app" */;
+			buildConfigurationList = A74D2DEB248DA67B00855079 /* Build configuration list for PBXProject "Anime-app" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,47 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = A74D2DBA248D9A8B00855079;
-			productRefGroup = A74D2DC4248D9A8B00855079 /* Products */;
+			mainGroup = A74D2DE7248DA67B00855079;
+			productRefGroup = A74D2DF1248DA67B00855079 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A74D2DC2248D9A8B00855079 /* Anime-app */,
+				A74D2DEF248DA67B00855079 /* Anime-app */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A74D2DC1248D9A8B00855079 /* Resources */ = {
+		A74D2DEE248DA67B00855079 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74D2DD3248D9A8D00855079 /* LaunchScreen.storyboard in Resources */,
-				A74D2DD0248D9A8D00855079 /* Preview Assets.xcassets in Resources */,
-				A74D2DCD248D9A8D00855079 /* Assets.xcassets in Resources */,
+				A74D2E00248DA67C00855079 /* LaunchScreen.storyboard in Resources */,
+				A74D2DFD248DA67C00855079 /* Assets.xcassets in Resources */,
+				A74D2DFB248DA67B00855079 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A74D2DBF248D9A8B00855079 /* Sources */ = {
+		A74D2DEC248DA67B00855079 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74D2DC7248D9A8B00855079 /* AppDelegate.swift in Sources */,
-				A74D2DC9248D9A8B00855079 /* SceneDelegate.swift in Sources */,
-				A74D2DCB248D9A8B00855079 /* ContentView.swift in Sources */,
+				A74D2DF8248DA67B00855079 /* ViewController.swift in Sources */,
+				A74D2DF4248DA67B00855079 /* AppDelegate.swift in Sources */,
+				A74D2DF6248DA67B00855079 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A74D2DD1248D9A8D00855079 /* LaunchScreen.storyboard */ = {
+		A74D2DF9248DA67B00855079 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A74D2DD2248D9A8D00855079 /* Base */,
+				A74D2DFA248DA67B00855079 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A74D2DFE248DA67C00855079 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74D2DFF248DA67C00855079 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A74D2DD5248D9A8D00855079 /* Debug */ = {
+		A74D2E02248DA67C00855079 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		A74D2DD6248D9A8D00855079 /* Release */ = {
+		A74D2E03248DA67C00855079 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,40 +280,36 @@
 			};
 			name = Release;
 		};
-		A74D2DD8248D9A8D00855079 /* Debug */ = {
+		A74D2E05248DA67C00855079 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Anime-app/Preview Content\"";
 				DEVELOPMENT_TEAM = 8982CU9YB7;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Anime-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "swFang.Anime-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.swFang.Anime-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A74D2DD9248D9A8D00855079 /* Release */ = {
+		A74D2E06248DA67C00855079 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Anime-app/Preview Content\"";
 				DEVELOPMENT_TEAM = 8982CU9YB7;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Anime-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "swFang.Anime-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.swFang.Anime-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A74D2DBE248D9A8B00855079 /* Build configuration list for PBXProject "Anime-app" */ = {
+		A74D2DEB248DA67B00855079 /* Build configuration list for PBXProject "Anime-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A74D2DD5248D9A8D00855079 /* Debug */,
-				A74D2DD6248D9A8D00855079 /* Release */,
+				A74D2E02248DA67C00855079 /* Debug */,
+				A74D2E03248DA67C00855079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A74D2DD7248D9A8D00855079 /* Build configuration list for PBXNativeTarget "Anime-app" */ = {
+		A74D2E04248DA67C00855079 /* Build configuration list for PBXNativeTarget "Anime-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A74D2DD8248D9A8D00855079 /* Debug */,
-				A74D2DD9248D9A8D00855079 /* Release */,
+				A74D2E05248DA67C00855079 /* Debug */,
+				A74D2E06248DA67C00855079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A74D2DBB248D9A8B00855079 /* Project object */;
+	rootObject = A74D2DE8248DA67B00855079 /* Project object */;
 }
