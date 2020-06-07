@@ -24,8 +24,13 @@ class ViewController: UIViewController, WKNavigationDelegate {
         let url = URL(string: "https://4anime.to/")!
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
+        
+        print("finish to load")
+        let elType = "right_sidebar"
+        let removeElementIdScript = "var element = document.getElementByTagName('\(elType)'); element.parentElement.removeChild(element);"
+        webView.evaluateJavaScript(removeElementIdScript) { (response, error) in
+            debugPrint("Am here")
+        }
     }
-
-
 }
 
