@@ -18,7 +18,7 @@ class ViewController: UIViewController, WKNavigationDelegate, UIScrollViewDelega
         scrollView = UIScrollView()
         
         webView.navigationDelegate = self
-        self.scrollView.delegate = self
+        self.webView.scrollView.delegate = self
         view = webView
     }
     
@@ -28,22 +28,16 @@ class ViewController: UIViewController, WKNavigationDelegate, UIScrollViewDelega
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
         
+        self.webView.scrollView.showsHorizontalScrollIndicator = false
+        
         let elType = "table"
         let removeElementIdScript = "var element = document.getElementByTagName('\(elType)'); element[0].parentElement.removeChild(element);"
         webView.evaluateJavaScript(removeElementIdScript) { (response, error) in
             debugPrint("Am here")
         }
-        
-        //currently doesnt work this section, cant disable horizontal scroll..
-        let body = "body"
-        let noHorizontalScroll = "el = document.getElementsByTagName('\(body)'); el[0].style.overflow = 'hidden'"
-        webView.evaluateJavaScript(noHorizontalScroll) { (response, error) in
-            debugPrint("disablescroll")
-        }
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        print("scrollviewdidscroll")
         if scrollView.contentOffset.x != 0 {
                scrollView.contentOffset.x = 0
         }
