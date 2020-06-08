@@ -23,6 +23,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         
         let url = URL(string: "https://4anime.to/")!
         webView.load(URLRequest(url: url))
+        webView.scrollView.showsHorizontalScrollIndicator = false
         webView.allowsBackForwardNavigationGestures = true
         
         print("finish to load")
@@ -31,6 +32,12 @@ class ViewController: UIViewController, WKNavigationDelegate {
         webView.evaluateJavaScript(removeElementIdScript) { (response, error) in
             debugPrint("Am here")
         }
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+       if (scrollView.contentOffset.x > 0){
+           scrollView.contentOffset = CGPoint(x: 0, y: scrollView.contentOffset.y)
+       }
     }
 }
 

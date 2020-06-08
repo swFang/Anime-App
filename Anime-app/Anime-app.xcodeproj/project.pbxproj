@@ -13,10 +13,11 @@
 		A74D2DFB248DA67B00855079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74D2DF9248DA67B00855079 /* Main.storyboard */; };
 		A74D2DFD248DA67C00855079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74D2DFC248DA67C00855079 /* Assets.xcassets */; };
 		A74D2E00248DA67C00855079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74D2DFE248DA67C00855079 /* LaunchScreen.storyboard */; };
+		A74D2E08248DB5A100855079 /* my_neighbor_totoroo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A74D2E07248DB5A100855079 /* my_neighbor_totoroo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A74D2DF0248DA67B00855079 /* Anime-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anime-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74D2DF0248DA67B00855079 /* Anime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74D2DF3248DA67B00855079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A74D2DF5248DA67B00855079 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A74D2DF7248DA67B00855079 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		A74D2DFC248DA67C00855079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74D2DFF248DA67C00855079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A74D2E01248DA67C00855079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74D2E07248DB5A100855079 /* my_neighbor_totoroo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = my_neighbor_totoroo.jpg; path = ../../../../Downloads/my_neighbor_totoroo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		A74D2DF1248DA67B00855079 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A74D2DF0248DA67B00855079 /* Anime-app.app */,
+				A74D2DF0248DA67B00855079 /* Anime.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +58,7 @@
 		A74D2DF2248DA67B00855079 /* Anime-app */ = {
 			isa = PBXGroup;
 			children = (
+				A74D2E07248DB5A100855079 /* my_neighbor_totoroo.jpg */,
 				A74D2DF3248DA67B00855079 /* AppDelegate.swift */,
 				A74D2DF5248DA67B00855079 /* SceneDelegate.swift */,
 				A74D2DF7248DA67B00855079 /* ViewController.swift */,
@@ -84,7 +87,7 @@
 			);
 			name = "Anime-app";
 			productName = "Anime-app";
-			productReference = A74D2DF0248DA67B00855079 /* Anime-app.app */;
+			productReference = A74D2DF0248DA67B00855079 /* Anime.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,6 +130,7 @@
 			files = (
 				A74D2E00248DA67C00855079 /* LaunchScreen.storyboard in Resources */,
 				A74D2DFD248DA67C00855079 /* Assets.xcassets in Resources */,
+				A74D2E08248DB5A100855079 /* my_neighbor_totoroo.jpg in Resources */,
 				A74D2DFB248DA67B00855079 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,12 +291,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8982CU9YB7;
 				INFOPLIST_FILE = "Anime-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.swFang.Anime-app";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Anime;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,12 +310,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8982CU9YB7;
 				INFOPLIST_FILE = "Anime-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.swFang.Anime-app";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Anime;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
